@@ -2,7 +2,7 @@ print("Hello World")
 a = 1
 b = 2
 c = 0
-d = array(0,10) #Define un arreglo
+d = array(0,10) #Defines an array
 
 print(a+b)
 for (i in 1:range(10)) {
@@ -12,5 +12,6 @@ for (i in 1:range(10)) {
 }
 
 
-plot(d, type = "o") #Define el tipo de linea del plot con TYPE
-title(main="Valores de C") #Da un titulo al plot
+plot(d, type = "o") #Defines the type of line used to plot
+title(main="C Values") #Gives the plot a title
+
